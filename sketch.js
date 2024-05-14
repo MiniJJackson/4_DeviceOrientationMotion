@@ -20,9 +20,10 @@ function setup() {
 function draw() {
     background(0, 225, 255); // canvas bkgrnd
 
-    /*
+   
     circle(22, 500, ball.size + 10);// 1 left down
 
+    /*
     circle(22, 500, ball.size + 10);//2 left middle
     circle(22, 500, ball.size + 10);
     circle(22, 500, ball.size + 10);
