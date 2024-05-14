@@ -113,6 +113,3 @@ class Circle {
     this.y += random(-2, 2);
   }
 }
-
-
-document.getElementById('motion').onclick = requestMotionPermission;
