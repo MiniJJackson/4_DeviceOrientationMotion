@@ -1,4 +1,3 @@
-
 let deltaX, deltaY;
 const w = window.innerWidth;
 const h = window.innerHeight;
@@ -46,7 +45,7 @@ function draw() {
   textSize(24);
   text("Score: " + score, w / 10, 40);
 
-  if (circles.length > 0) {
+  if (circles.length == 0) {
     text("You win!", width / 2, height / 2);
     noLoop();
   }
