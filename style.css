@@ -7,12 +7,12 @@ html, body {
     margin: auto;
   }
   #motion{
-    position:absolute;
+    position:fixed;
+    top:0;
     height:3vh; 
-    /*width: 98vw;*/
-    margin-left:1vw;
+    background-color: bisque;
+    margin-left:40vw;
     margin-top: 10px; 
     margin-bottom: 10px; 
     font-size:2vh;
   }
-  

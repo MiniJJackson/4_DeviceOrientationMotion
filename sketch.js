@@ -1,3 +1,4 @@
+
 let deltaX, deltaY;
 const w = window.innerWidth;
 const h = window.innerHeight;
@@ -43,7 +44,7 @@ function draw() {
   fill(0);
   textAlign(CENTER);
   textSize(24);
-  text("Score: " + score, w / 2, 40);
+  text("Score: " + score, w / 10, 40);
 
   if (circles.length == 0) {
     text("You win!", width / 2, height / 2);
@@ -112,3 +113,6 @@ class Circle {
     this.y += random(-2, 2);
   }
 }
+
+
+document.getElementById('motion').onclick = requestMotionPermission;
